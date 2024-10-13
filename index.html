@@ -1,13 +1,543 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Hello, World!</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Wiame EL HAFID - myCV</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+
+        * {
+
+            box-sizing: border-box;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f5f5f5;
+
+        }
+
+
+
+        .container {
+
+            display: flex;
+
+            margin: 0 auto;
+
+            max-width: 800px;
+
+            border: 1px solid pink;
+
+            border-radius: 10px;
+
+            overflow: hidden;
+
+        }
+
+
+
+        .left-column {
+
+            background-color: #ffffff;
+
+            width: 35%;
+
+            padding: 20px;
+
+            border-right: 1px solid pink;
+
+        }
+
+
+
+        .right-column {
+
+            background-color: #ffffff;
+
+            width: 65%;
+
+            padding: 20px;
+
+        }
+
+
+
+        .header {
+
+            text-align: center;
+
+        }
+
+
+
+        .profile {
+
+            width: 80%;
+
+            border-radius: 50%;
+
+        }
+
+
+
+        .social-media {
+
+            margin: 20px 0;
+
+        }
+
+
+
+        .mymail {
+
+            color: #000;
+
+            text-decoration: none;
+
+            padding-right: 10px;
+
+        }
+
+
+
+        .mymail:hover {
+
+            color: pink;
+
+        }
+
+
+
+        h2 {
+
+            border-bottom: 2px solid pink;
+
+            padding-bottom: 5px;
+
+            margin-bottom: 15px;
+
+        }
+
+
+
+        .skill-bar {
+
+            margin: 10px 0;
+
+        }
+
+
+
+        .bar1, .bar {
+
+            background-color: #e0e0e0;
+
+            border-radius: 5px;
+
+            height: 10px;
+
+        }
+
+
+
+        .progress1, .progress {
+
+            background-color: pink;
+
+            height: 100%;
+
+            border-radius: 5px;
+
+        }
+
+
+
+        ul {
+
+            list-style: none;
+
+            padding-left: 0;
+
+        }
+
+
+
+        ul li {
+
+            margin-bottom: 10px;
+
+        }
+
+
+
+        small {
+
+            color: #777;
+
+        }
+
+    </style>
+
 </head>
+
 <body>
-  <h1>
-    Hello, World!
-  </h1>
+
+
+
+    <div class="container">
+
+        <div class="left-column">
+
+            <header>
+
+                <div class="header">
+
+                    <img src="https://cdn.pixabay.com/photo/2024/06/24/04/05/woman-8849047_1280.jpg" alt="My Profile Picture" class="profile"> 
+
+                    <h1>Wiame EL HAFID</h1>
+
+                    <p>AI Engineering Student | Web Developer | Data Scientist</p>
+
+                    <p>Email:</p>
+
+                </div>
+
+                <a href="mailto:wiame.ai.engineer@gmail.com" class="mymail">wiame.ai.engineer@gmail.com</a>
+
+            </header>
+
+            <section class="social-media">
+
+                <h2>Find Me Online</h2>
+
+                <a href="https://www.linkedin.com/in/wiame-el-hafid-8302962ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon">
+
+                    <i class="fab fa-linkedin" style="font-size:24px;"></i> My LinkedIn
+
+                </a>
+
+            </section>
+
+            <section class="languages">
+
+                <h2>Languages</h2>
+
+                <div class="skill-bar">
+
+                    <span>ENGLISH</span>
+
+                    <div class="bar1">
+
+                        <div class="progress1" style="width: 95%;"></div>
+
+                    </div>
+
+                    <span>95%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>FRENCH</span>
+
+                    <div class="bar1">
+
+                        <div class="progress1" style="width: 95%;"></div>
+
+                    </div>
+
+                    <span>95%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>ARABIC</span>
+
+                    <div class="bar1">
+
+                        <div class="progress1" style="width: 95%;"></div>
+
+                    </div>
+
+                    <span>95%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>JAPANESE</span>
+
+                    <div class="bar1">
+
+                        <div class="progress1" style="width: 30%;"></div>
+
+                    </div>
+
+                    <span>30%</span>
+
+                </div>
+
+            </section>
+
+            <section class="qualities">
+
+                <h2>My Qualities</h2>
+
+                <ul>
+
+                    <li><strong>Creative</strong></li>
+
+                    <li><strong>Kind</strong></li>
+
+                    <li><strong>Hardworking</strong></li>
+
+                    <li><strong>Open-minded</strong></li>
+
+                    <li><strong>Serious</strong></li>
+
+                    <li><strong>Confident</strong></li>
+
+                    <li><strong>Sociable</strong></li>
+
+                    <li><strong>Resilient</strong></li>
+
+                    <li><strong>Reasonable</strong></li>
+
+                    <li><strong>Focused</strong></li>
+
+                </ul>
+
+            </section>
+
+        </div>
+
+
+
+        <div class="right-column">
+
+            <section class="profile">
+
+                <h2>Profile</h2>
+
+                <p>I am WIAME EL HAFID, an AI engineering student at ENSAM Meknès, passionate about: <br> 
+
+                + Social problem solving. <br> 
+
+                + Creating innovative solutions. <br> 
+
+                + Helping people in need. <br> 
+
+                + Testing my limits.</p>
+
+            </section>
+
+
+
+            <section class="education">
+
+                <h2>Education</h2>
+
+                <ul>
+
+                    <li><strong>AI Engineer and Data Scientist Diploma</strong> - ENSAM Meknès <br><small>2022 - Present</small></li>
+
+                    <li><strong>High School Diploma</strong> - L'Ange Bleu - EL JADIDA <br><small>2022</small></li>
+
+                </ul>
+
+            </section>
+
+
+
+            <section class="skills">
+
+                <h2>Skills</h2>
+
+                <div class="skill-bar">
+
+                    <span>Data analysis</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 65%;"></div>
+
+                    </div>
+
+                    <span>65%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>C++</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 75%;"></div>
+
+                    </div>
+
+                    <span>75%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>Leadership & team management</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 75%;"></div>
+
+                    </div>
+
+                    <span>75%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>Creativity</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 70%;"></div>
+
+                    </div>
+
+                    <span>70%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>Advanced Excel</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 65%;"></div>
+
+                    </div>
+
+                    <span>65%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>Matlab</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 50%;"></div>
+
+                    </div>
+
+                    <span>50%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>Arduino</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 60%;"></div>
+
+                    </div>
+
+                    <span>60%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>Python</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 65%;"></div>
+
+                    </div>
+
+                    <span>65%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>R</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 85%;"></div>
+
+                    </div>
+
+                    <span>85%</span>
+
+                </div>
+
+                <div class="skill-bar">
+
+                    <span>HTML, CSS</span>
+
+                    <div class="bar">
+
+                        <div class="progress" style="width: 58%;"></div>
+
+                    </div>
+
+                    <span>58%</span>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="experience">
+
+                <h2>Experience</h2>
+
+                <ul>
+
+                    <li><strong>Creating a CV using HTML and publishing it</strong><br>Worked on web development projects using HTML, CSS, and JavaScript.</li>
+
+                    <li><strong>Creating a C++ program for an ancient Jewish game</strong></li>
+
+                    <li><strong>Creating linear models for predictive problems</strong><br> + Creating linear models to predict: <br> + The amount of ice cream sales based on the day's temperature.<br> + For house renting.<br> + For admission to a university using different features.<br> All of this was done using different methods and with very good feature scaling to achieve the best models.</li>
+
+                    <li><strong>Working on robotics mini-projects</strong><br> + Using Arduino to make an LED turn on.<br> + Making the wheels of a toy car move using motors.</li>
+
+                </ul>
+
+            </section>
+
+        </div>
+
+    </div>
+
 </body>
-</html>
+
+                                            </html>
